@@ -13,9 +13,10 @@ export default function Navbar() {
     <nav className='nav-container'>
       <img src={require('../../assets/logo.png')} className='logo'></img>
       <ul className='mid-section'>
-        <li className='navbar-link'>Home</li>
-        <li className='navbar-link'>Practice</li>
-        <li className='navbar-link'>Pro</li>
+        <NavLink to='/' className='navbar-link'>Home</NavLink>
+        <NavLink to='/Practice' className='navbar-link'>Practice</NavLink>
+        <NavLink to='/Pro' className='navbar-link'>Pro</NavLink>
+      
       </ul>
       <button className='nav-btn'>Login</button>
         <AiOutlineMenu className='menu-btn' onClick={toggleMenu}/>
