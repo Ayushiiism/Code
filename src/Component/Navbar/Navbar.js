@@ -5,10 +5,8 @@ import DropdownMenu from './DropdownMenu';
 import {NavLink} from 'react-router-dom'
 
 export default function Navbar() {
-  const [isMenuOpen, setMenuOpen] = useState(false);
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className='nav-container'>
       <img src={require('../../assets/logo.png')} className='logo'></img>
@@ -16,16 +14,11 @@ export default function Navbar() {
         <NavLink to='/' className='navbar-link'>Home</NavLink>
         <NavLink to='/Practice' className='navbar-link'>Practice</NavLink>
         <NavLink to='/Pro' className='navbar-link'>Pro</NavLink>
-      
       </ul>
-      <button className='nav-btn'>Login</button>
-        <AiOutlineMenu className='menu-btn' onClick={toggleMenu}/>
-        {isMenuOpen && (
-          <select className="navbar-menu">
-            <NavLink>Profile</NavLink>
-            <NavLink>Logout</NavLink>
-          </select>
-        )}
+      <div className='right-section'>
+        <button className='nav-btn'>Login</button>
+        <DropdownMenu className='dropdown'/>
+      </div>
     </nav>
   )
 }
