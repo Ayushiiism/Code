@@ -14,3 +14,13 @@
     padding: .5em;
     border: solid;
   }
+
+.progress{
+    margin-top: 2%;
+    width: 19em;
+}
+.btn-div{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    
+}
