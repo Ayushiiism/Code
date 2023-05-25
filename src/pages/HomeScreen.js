@@ -5,6 +5,8 @@ function HomeScreen() {
   return (
     <>
           <Practice/>
+
+          {/* hello */}
     </>
   )
 }
