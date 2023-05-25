@@ -2,14 +2,67 @@ var Array = [
                {"Que":'https://leetcode.com/problems/two-sum/',
                 "Name":"Two Sum",
                  "Level":"Easy"},
-                 {"Que":'https://leetcode.com/problems/two-sum/',
+                 {"Que":'https://leetcode.com/problems/remove-duplicates-from-sorted-array/',
                  "Name":"Remove Duplicates from Sorted Array",
                  "Level":"Easy"},
                  {"Que":'https://leetcode.com/problems/search-insert-position/',
                  "Name":"Search Insert Position",
-                 "Level":"Easy"}
+                 "Level":"Easy"},
+                 {"Que":'https://leetcode.com/problems/sort-colors/',
+                 "Name":"Sort Colors",
+                 "Level":"Medium"},
+                 {"Que":'https://leetcode.com/problems/3sum/',
+                 "Name":"3 Sum",
+                 "Level":"Medium"},
+                 {"Que":'https://leetcode.com/problems/median-of-two-sorted-arrays/',
+                 "Name":"Median of Two Sorted Arrays",
+                 "Level":"Hard"},
+            ] 
+var TwoPointer =[
+     {"Que":'https://leetcode.com/problems/reverse-string/',
+     "Name":"Reverse String",
+      "Level":"Easy"},
+      {"Que":'https://leetcode.com/problems/move-zeroes/',
+      "Name":"Move Zeros",
+      "Level":"Easy"},
+      {"Que":'https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/',
+      "Name":"Minimum Difference Between Highest and Lowest of K Scores",
+      "Level":"Easy"},
+      {"Que":'https://leetcode.com/problems/rotate-array/',
+      "Name":"Rotate Array",
+      "Level":"Medium"},
+      {"Que":'https://leetcode.com/problems/container-with-most-water/',
+      "Name":"Container With Most Water",
+      "Level":"Medium"},
+      {"Que":'https://leetcode.com/problems/trapping-rain-water/',
+      "Name":"Trapping Rain Water",
+      "Level":"Hard"},
 
-            ]   
+]  
+
+var WindowSliding=[
+     {"Que":'https://leetcode.com/problems/best-time-to-buy-and-sell-stock/',
+     "Name":"Best Time to Buy and Sell Stock",
+      "Level":"Easy"},
+      {"Que":'https://leetcode.com/problems/contains-duplicate-ii/',
+      "Name":"Contains Duplicate",
+      "Level":"Easy"},
+      {"Que":'https://leetcode.com/problems/longest-substring-without-repeating-characters/',
+      "Name":"Longest Substring Without Repeating Characters",
+      "Level":"Medium"},
+      {"Que":'https://leetcode.com/problems/minimum-size-subarray-sum/',
+      "Name":" Minimum Size Subarray Sum",
+      "Level":"Medium"},
+      {"Que":'https://leetcode.com/problems/find-k-closest-elements/',
+      "Name":"Find K Closest Elements",
+      "Level":"Medium"},
+      {"Que":'https://leetcode.com/problems/longest-duplicate-substring/',
+      "Name":"Longest Duplicate Substring",
+      "Level":"Hard"},
+      {"Que":'https://leetcode.com/problems/constrained-subsequence-sum/',
+      "Name":"Constrained Subsequence Sum",
+      "Level":"Hard"},
+]
     
 
-export  {Array}
+export  {Array,TwoPointer,WindowSliding}

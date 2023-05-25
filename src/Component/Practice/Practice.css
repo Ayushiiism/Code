@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
 .PracticeWrapper{
     margin-top: 20px;
     width: 50%;
@@ -21,6 +23,19 @@
 }
 .btn-div{
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     
+}
+.question-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.que-level {
+    width: 40%;
+    border-radius: 10px;
+}
+.que-link{
+   text-decoration: none;
+   font-family: 'Sono', sans-serif;
+   
 }
