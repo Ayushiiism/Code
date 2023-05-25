@@ -5,7 +5,6 @@ function HomeScreen() {
   return (
     <>
         <Navbar/>  
-        
     </>
   )
 }
